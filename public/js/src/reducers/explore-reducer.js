@@ -1,14 +1,15 @@
 const explore_defaults = {
   explores: []
-}
+};
 
-const explore = (state=explore_defaults, action) => {
+const explore = (state = explore_defaults, action) => {
   switch (action.type) {
     case "GET_EXPLORES":
-      return { ...state, explores: action.payload }
-      break
+      return { ...state, explores: action.payload };
+      break;
   }
-  return state
-}
+  return state;
+};
 
-export default explore
+export default explore;
+// Wtf does any of this mean lol????
